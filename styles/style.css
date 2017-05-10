@@ -1,0 +1,102 @@
+/* Standard */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Navigation */
+.navbar-default,
+.navbar-default .navbar-collapse {
+  background-color: #fff;
+  border-style: none;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 2em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 1.4em;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #292b2c;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #292b2c;
+}
+
+.navbar-fixed-top {
+  /* stops navbar font flicker in Safari */
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/*done up to here*/
+
+/* About */
+#about {
+  background-color: #25ced1;
+  padding-top: 20px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.about,
+.personal-projects {
+  background-color: #25ced1;
+}
+
+.contact,
+.education {
+  background-color: #ff8a5b;
+}
+
+.work,
+.links {
+  background-color: #ea526f;
+}
+
+.skills {
+  background-color: #292b2c;
+}
+
+.white {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  main .col-md-10 {
+    padding-left: 0px;
+  }
+}
