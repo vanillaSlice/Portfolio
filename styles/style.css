@@ -1,9 +1,12 @@
 /* Standard */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #292b2c;
   margin-top: 50px;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
+q,
 h1,
 h2,
 h3,
@@ -14,7 +17,34 @@ header {
   font-family: 'Indie Flower', cursive;
 }
 
+a,
+a:focus,
+a:hover,
+a:visited {
+  color: #e7e7e7; 
+}
+
+section {
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  section .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 920px;
+  }
+}
+
 /* Navigation */
+.navbar-nav {
+  margin-bottom: 0;
+}
+
 .navbar-default,
 .navbar-default .navbar-collapse {
   background-color: #fff;
@@ -22,11 +52,11 @@ header {
 }
 
 .navbar-default .navbar-brand {
-  font-size: 2em;
+  font-size: 28px;
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-size: 1.4em;
+  font-size: 20px;
 }
 
 .navbar-default .navbar-brand,
@@ -55,48 +85,43 @@ header {
   background-color: #292b2c;
 }
 
-.navbar-fixed-top {
-  /* stops navbar font flicker in Safari */
-  -webkit-font-smoothing: subpixel-antialiased;
+/* About */
+#about {
+  background-color: #25ced1;
+}
+
+.logo {
+  border-radius: 50%;
+  padding: 20px 0;
+}
+
+q {
+  font-size: 18px;
 }
 
 /*done up to here*/
 
-/* About */
-#about {
-  background-color: #25ced1;
-  padding-top: 20px;
+/* Work */
+#work {
+  background-color: #fc6471;
 }
 
-.round {
-  border-radius: 50%;
+/* Education */
+#education {
+  background-color: #F7B267;
 }
 
-.about,
-.personal-projects {
-  background-color: #25ced1;
-}
-
-.contact,
-.education {
-  background-color: #ff8a5b;
-}
-
-.work,
-.links {
-  background-color: #ea526f;
-}
-
-.skills {
+/* Skills */
+#skills {
   background-color: #292b2c;
 }
 
-.white {
-  color: #fff;
+/* Projects */
+#projects {
+    background-color: #56E39F;
 }
 
-@media (min-width: 992px) {
-  main .col-md-10 {
-    padding-left: 0px;
-  }
+/* Contact */
+#contact {
+    background-color: #6699CC; 
 }
