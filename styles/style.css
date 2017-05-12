@@ -6,14 +6,12 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-q,
-h1,
+header,
 h2,
 h3,
 h4,
-h5,
-h6,
-header {
+#quote,
+.date {
   font-family: 'Indie Flower', cursive;
 }
 
@@ -21,11 +19,17 @@ a,
 a:focus,
 a:hover,
 a:visited {
-  color: #e7e7e7; 
+  color: #e7e7e7;
 }
 
 section {
   padding: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 920px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -34,10 +38,12 @@ section {
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 920px;
-  }
+.date {
+  font-size: 16px;
+}
+
+hr {
+  border-color: #292b2c;
 }
 
 /* Navigation */
@@ -95,11 +101,9 @@ section {
   padding: 20px 0;
 }
 
-q {
+#quote {
   font-size: 18px;
 }
-
-/*done up to here*/
 
 /* Work */
 #work {
@@ -108,12 +112,15 @@ q {
 
 /* Education */
 #education {
-  background-color: #F7B267;
+  background-color: #f7b267;
 }
+
+/*done up to here*/
 
 /* Skills */
 #skills {
   background-color: #292b2c;
+  color: #fff;
 }
 
 /* Projects */
@@ -124,4 +131,13 @@ q {
 /* Contact */
 #contact {
     background-color: #6699CC; 
+}
+
+/* Footer */
+footer .social,
+footer .social:focus,
+footer .social:hover,
+footer .social:visited {
+  color: #292b2c;
+  font-size: 32px;
 }

@@ -2,8 +2,7 @@ $(document).ready(function () {
   
   'use strict';
   
-  // navigation link handler
-  $('.navbar-collapse a').click(function (event) {
+  $('.scrollable').click(function (event) {
     event.preventDefault();
     
     // for smooth scrolling
@@ -13,7 +12,7 @@ $(document).ready(function () {
         
     // will make menu disappear when a nav link is clicked
     var menu_button = $('.navbar-toggle');
-    if (menu_button.is(':visible')) {
+    if (menu_button.is(':visible') && !menu_button.hasClass('collapsed')) {
       menu_button.trigger('click');
     }
   });
