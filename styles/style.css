@@ -1,15 +1,36 @@
-/* Standard */
+/* 
+  Table of Contents:
+  1. Typography
+  2. Standard
+  3. Navigation
+  4. About
+  5. Work
+  6. Education
+  7. Skills
+  8. Projects
+  9. Contact
+  10. Footer
+
+  Font colours: 
+  Dark Grey #292b2c (standard colour) 
+  Light Grey #e7e7e7 (link colour)
+  White #fff (colour to use on dark backgrounds)
+*/
+
+/* 1. Typography */
 body {
   font-family: 'Raleway', sans-serif;
   color: #292b2c;
-  margin-top: 50px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 header,
+h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 #quote,
 .date {
   font-family: 'Indie Flower', cursive;
@@ -20,6 +41,15 @@ a:focus,
 a:hover,
 a:visited {
   color: #e7e7e7;
+}
+
+.date {
+  font-size: 16px;
+}
+
+/* 2. Standard */
+body {
+  margin-top: 50px;
 }
 
 section {
@@ -38,15 +68,11 @@ section {
   }
 }
 
-.date {
-  font-size: 16px;
-}
-
 hr {
   border-color: #292b2c;
 }
 
-/* Navigation */
+/* 3. Navigation */
 .navbar-nav {
   margin-bottom: 0;
 }
@@ -91,12 +117,12 @@ hr {
   background-color: #292b2c;
 }
 
-/* About */
+/* 4. About */
 #about {
   background-color: #25ced1;
 }
 
-.logo {
+#logo {
   border-radius: 50%;
   padding: 20px 0;
 }
@@ -105,39 +131,55 @@ hr {
   font-size: 18px;
 }
 
-/* Work */
+/* 5. Work */
 #work {
   background-color: #fc6471;
 }
 
-/* Education */
+/* 6. Education */
 #education {
   background-color: #f7b267;
 }
 
-/*done up to here*/
-
-/* Skills */
+/* 7. Skills */
 #skills {
   background-color: #292b2c;
   color: #fff;
 }
 
-/* Projects */
+#skills img {
+  padding: 20px 0;
+}
+
+#skills img:last-child {
+  padding-bottom: 30px;
+}
+
+#skills .col-sm-3 {
+  padding: 0;
+}
+
+/* 8. Projects */
 #projects {
-    background-color: #56E39F;
+  background-color: #56e39f;
 }
 
-/* Contact */
+/* 9. Contact */
 #contact {
-    background-color: #6699CC; 
+  background-color: #6699cc; 
 }
 
-/* Footer */
+/* 10. Footer */
 footer .social,
 footer .social:focus,
 footer .social:hover,
 footer .social:visited {
-  color: #292b2c;
   font-size: 32px;
+}
+
+footer a,
+footer a:focus,
+footer a:hover,
+footer a:visited {
+  color: #292b2c;
 }

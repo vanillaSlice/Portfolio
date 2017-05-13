@@ -28,7 +28,7 @@ $(document).ready(function () {
   $('#quote').text(quote);
   
   // change logo image on hover
-  $('.logo').hover(function (event) {
+  $('#logo').hover(function (event) {
     var src = event.target.src;
     var alt_src = event.target.getAttribute('data-alt-src');
     event.target.setAttribute('src', alt_src);
