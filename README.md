@@ -8,4 +8,10 @@ A codepen of my page can be found [here](https://codepen.io/vanillaSlice/full/Em
 I will use this page as the basis of my site in the future.
 
 ## Screenshots
-TODO
+![screenshot-1](./screenshot-1.png)
+
+![screenshot-2](./screenshot-2.png)
+
+![screenshot-3](./screenshot-3.png)
+
+![screenshot-4](./screenshot-4.png)
