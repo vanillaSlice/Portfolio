@@ -72,6 +72,11 @@ hr {
   border-color: #292b2c;
 }
 
+.thumbnail {
+  border-style: none;
+  display: inline-block;
+}
+
 /* 3. Navigation */
 .navbar-nav {
   margin-bottom: 0;
@@ -162,6 +167,14 @@ hr {
 /* 8. Projects */
 #projects {
   background-color: #56e39f;
+}
+
+#projects .thumbnail {
+  margin: 20px 0;
+}
+
+#projects .thumbnail:last-child {
+  margin-bottom: 30px;
 }
 
 /* 9. Contact */
