@@ -1,39 +1,38 @@
 /* 
   Table of Contents:
-  1. Typography
-  2. Standard
-  3. Navigation
-  4. About
-  5. Work
-  6. Education
-  7. Skills
-  8. Projects
-  9. Contact
-  10. Footer
+    1. Typography
+    2. Standard
+    3. Navigation
+    4. About
+    5. Work
+    6. Education
+    7. Skills
+    8. Projects
+    9. Contact
+    10. Footer
 
   Font colours: 
-  Dark Grey #292b2c (standard colour) 
-  Light Grey #e7e7e7 (link colour)
-  White #fff (colour to use on dark backgrounds)
+    Dark Grey #292b2c (standard colour) 
+    Light Grey #e7e7e7 (link colour)
+    White #fff (colour to use on dark backgrounds)
 */
 
 
 /* 1. Typography */
 
 body {
-  font-family: 'Raleway', sans-serif;
   color: #292b2c;
-  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: 'Raleway', sans-serif;
 }
 
-header,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-#quote,
+.navbar,
+.quote,
 .date {
   font-family: 'Indie Flower', cursive;
 }
@@ -98,23 +97,23 @@ hr {
   font-size: 28px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   font-size: 20px;
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav>li>a,
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
   color: #292b2c;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: #e7e7e7;
@@ -128,19 +127,18 @@ hr {
   background-color: #292b2c;
 }
 
-
 /* 4. About */
 
 #about {
   background-color: #25ced1;
 }
 
-#logo {
+.logo {
   border-radius: 50%;
   padding: 20px 0;
 }
 
-#quote {
+.quote {
   font-size: 18px;
 }
 
