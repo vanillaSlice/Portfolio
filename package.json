@@ -1,0 +1,39 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Basic Front End Development Project for FreeCodeCamp",
+  "keywords": [
+    "portfolio",
+    "freecodecamp"
+  ],
+  "homepage": "https://github.com/vanillaSlice/Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/vanillaSlice/Portfolio/issues",
+    "email": "mikelowedev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mike Lowe",
+    "email": "mikelowedev@gmail.com",
+    "url": "https://www.mikelowe.xyz/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanillaSlice/Portfolio.git"
+  },
+  "scripts": {
+    "test": "run-s test:*",
+    "test:lint": "run-s test:lint:*",
+    "test:lint:css": "stylelint src/**/*.css",
+    "start": "parcel src/index.html -d build",
+    "build": "parcel build src/index.html -d build --public-url ./"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.5",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.11.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0"
+  },
+  "private": true
+}
