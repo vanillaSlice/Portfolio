@@ -28,30 +28,28 @@
 </head>
 
 <body class="container-fluid" data-spy="scroll" data-target=".navbar" data-offset="55">
-
-  <!-- Navigation -->
   <header>
     <nav class="navbar navbar-default navbar-fixed-top animated bounceInDown">
       <div class="container">
         <div class="row">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-navbar"
+            <button type="button" class="navbar-toggle collapsed js-navbar-toggle" data-toggle="collapse" data-target="#portfolio-navbar"
               aria-expanded="false">
               <span class="sr-only">Toggle Navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">Mike Lowe</a>
+            <a class="navbar-brand" href="./">Mike Lowe</a>
           </div>
           <div class="collapse navbar-collapse" id="portfolio-navbar">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#about" class="scrollable">About</a></li>
-              <li><a href="#work" class="scrollable">Work</a></li>
-              <li><a href="#education" class="scrollable">Education</a></li>
-              <li><a href="#skills" class="scrollable">Skills</a></li>
-              <li><a href="#projects" class="scrollable">Projects</a></li>
-              <li><a href="#contact" class="scrollable">Contact</a></li>
+              <li class="active"><a href="#about" class="js-scrollable">About</a></li>
+              <li><a href="#work" class="js-scrollable">Work</a></li>
+              <li><a href="#education" class="js-scrollable">Education</a></li>
+              <li><a href="#skills" class="js-scrollable">Skills</a></li>
+              <li><a href="#projects" class="js-scrollable">Projects</a></li>
+              <li><a href="#contact" class="js-scrollable">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -59,33 +57,31 @@
     </nav>
   </header>
 
-  <!-- Main content -->
   <main class="animated bounceInUp">
-
-    <!-- About -->
-    <section class="row" id="about">
+    <section class="row about-section" id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-9">
             <h2>About</h2>
-            <p>Hello! My name is Mike and I am a software developer currently working in Manchester, England. My main
-              area of
-              focus is in back end development, specialising in Java, but I have skills and experience in front end
-              development
-              also. I am devoted to learning new technologies and producing clean code.</p>
-            <p>Perpetual refactor-er(?). Slightly obsessed with <a href="http://johncooperclarke.com/">John Cooper
-                Clarke</a>. Probably a hipster.</p>
+            <p>
+              Hello! My name is Mike and I am a software developer currently working in Manchester, England. My main
+              area of focus is in back end development, specialising in Java, but I have skills and experience in front
+              end development also. I am devoted to learning new technologies and producing clean code.
+            </p>
+            <p>
+              Perpetual refactor-er(?). Slightly obsessed with
+              <a href="http://johncooperclarke.com/">John Cooper Clarke</a>. Probably a hipster.
+            </p>
           </div>
           <div class="col-sm-3 text-center">
-            <img src="./images/logo.png" alt="Logo" class="img-responsive center-block logo">
-            <q class="quote"></q>
+            <img src="./images/logo.png" alt="Logo" class="img-responsive img-circle center-block logo js-logo">
+            <q class="quote js-quote"></q>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Work -->
-    <section class="row" id="work">
+    <section class="row work-section" id="work">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -93,34 +89,36 @@
             <h3>Developer</h3>
             <h4>Jisc Historical Texts and Journal Archives</h4>
             <p class="date">June 2016 - Present</p>
-            <p>I am currently a developer at <a href="https://www.jisc.ac.uk/">Jisc</a> working on the
-              <a href="http://historicaltexts.jisc.ac.uk">Historical Texts</a> and
+            <p>
+              I am currently a developer at <a href="https://www.jisc.ac.uk/">Jisc</a> working on the
+              <a href="https://historicaltexts.jisc.ac.uk">Historical Texts</a> and
               <a href="https://journalarchives.jisc.ac.uk">Journal Archives</a> services.
-              <a href="http://historicaltexts.jisc.ac.uk">Historical Texts</a> is a full text digital archive
+              <a href="https://historicaltexts.jisc.ac.uk">Historical Texts</a> is a full text digital archive
               enabling users to cross-search, view and download over 350,000 texts published between the 15<sup>th</sup>
-              and 19
-              <sup>th</sup> century. <a href="https://journalarchives.jisc.ac.uk">Journal Archives</a> is
+              and 19 <sup>th</sup> century. <a href="https://journalarchives.jisc.ac.uk">Journal Archives</a> is
               a platform enabling users to cross-search, view and download over 3.75 million articles from various
-              major
-              publishers.
+              major publishers.
             </p>
             <p>My role includes:</p>
             <ul>
-              <li>Developing a framework/writing tools to process and index vast amounts of data into the Elasticsearch
-                search
-                engine that backs both services.</li>
-              <li>Developing media processing tools to process media that is served up to users on the front end (e.g.
-                thumbnails,
-                zoomable images, EPUBs, plain text files).</li>
+              <li>
+                Developing a framework/writing tools to process and index vast amounts of data into the Elasticsearch
+                search engine that backs both services.
+              </li>
+              <li>
+                Developing media processing tools to process media that is served up to users on the front end (e.g.
+                thumbnails, zoomable images, EPUBs, plain text files).
+              </li>
               <li>General service maintenance.</li>
             </ul>
             <p>Skills I have developed:</p>
             <ul>
               <li>Working in an Agile environment</li>
               <li>Pair programming</li>
-              <li>Using a wide range of Java technologies including JUnit, Mockito, Gradle, Maven, Guava, Apache
-                Commons Libraries
-                and Tomcat.</li>
+              <li>
+                Using a wide range of Java technologies including JUnit, Mockito, Gradle, Maven, Guava, Apache
+                Commons Libraries and Tomcat.
+              </li>
             </ul>
             <p>
               My proudest achievement to date is the contribution I made towards launching the
@@ -136,8 +134,7 @@
       </div>
     </section>
 
-    <!-- Education -->
-    <section class="row" id="education">
+    <section class="row education-section" id="education">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -145,16 +142,18 @@
             <h3>University of Liverpool</h3>
             <h4>BSc (Hons). Computer Science 1<sup>st</sup> Class</h4>
             <p class="date">2011-2014</p>
-            <p>Exposure to programming languages such as Java, C, PHP, JavaScript, Perl, Prolog, etc. fuelled my desire
-              to pursue
-              a career in software development.</p>
+            <p>
+              Exposure to programming languages such as Java, C, PHP, JavaScript, Perl, Prolog, etc. fuelled my desire
+              to pursue a career in software development.
+            </p>
             <hr>
             <h3>Carmel College, St Helens</h3>
             <h4>A levels in Computing [A], Maths [B] and Psychology [C]</h4>
             <p class="date">2009-2011</p>
-            <p>Computing classes in college sparked my interest in programming (Visual Basic anyone?) and computers.
-              This pushed
-              me towards studying Computer Science at university.</p>
+            <p>
+              Computing classes in college sparked my interest in programming (Visual Basic anyone?) and computers.
+              This pushed me towards studying Computer Science at university.
+            </p>
             <hr>
             <h3>St Cuthbert's High School, St Helens</h3>
             <h4>GCSEs in 10 subjects, grades A-B, including English, Maths and IT</h4>
@@ -164,28 +163,27 @@
       </div>
     </section>
 
-    <!-- Skills -->
-    <section class="row" id="skills">
+    <section class="row skills-section" id="skills">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <h2>Skills</h2>
-            <p>These are the technologies that I feel most confident in:</p>
+            <p class="skills-text">These are the technologies that I feel most confident in:</p>
             <div class="row">
-              <div class="col-sm-3">
-                <img src="images/java-logo.png" alt="Java Logo" title="Java" class="col-sm-6 center-block img-responsive">
-                <img src="images/html5-logo.png" alt="HTML5 Logo" title="HTML5" class="col-sm-6 center-block img-responsive">
+              <div class="col-sm-3 skills-col">
+                <img src="images/java-logo.png" alt="Java Logo" title="Java" class="col-sm-6 center-block img-responsive skill-img">
+                <img src="images/html5-logo.png" alt="HTML5 Logo" title="HTML5" class="col-sm-6 center-block img-responsive skill-img">
               </div>
-              <div class="col-sm-3">
-                <img src="images/css3-logo.png" alt="CSS3 Logo" title="CSS3" class="col-sm-6 center-block img-responsive">
-                <img src="images/javascript-logo.png" alt="JavaScript Logo" title="JavaScript" class="col-sm-6 center-block img-responsive">
+              <div class="col-sm-3 skills-col">
+                <img src="images/css3-logo.png" alt="CSS3 Logo" title="CSS3" class="col-sm-6 center-block img-responsive skill-img">
+                <img src="images/javascript-logo.png" alt="JavaScript Logo" title="JavaScript" class="col-sm-6 center-block img-responsive skill-img">
               </div>
-              <div class="col-sm-3">
-                <img src="images/mysql-logo.png" alt="MySQL Logo" title="MySQL" class="col-sm-6 center-block img-responsive">
-                <img src="images/git-logo.png" alt="Git Logo" title="Git" class="col-sm-6 center-block img-responsive">
+              <div class="col-sm-3 skills-col">
+                <img src="images/mysql-logo.png" alt="MySQL Logo" title="MySQL" class="col-sm-6 center-block img-responsive skill-img">
+                <img src="images/git-logo.png" alt="Git Logo" title="Git" class="col-sm-6 center-block img-responsive skill-img">
               </div>
-              <div class="col-sm-3">
-                <img src="images/linux-logo.png" alt="Linux Logo" title="Linux" class="col-sm-6 center-block img-responsive">
+              <div class="col-sm-3 skills-col">
+                <img src="images/linux-logo.png" alt="Linux Logo" title="Linux" class="col-sm-6 center-block img-responsive skill-img">
               </div>
             </div>
             <p>I also have experience in Elasticsearch, MongoDB, Bootstrap, jQuery and AngularJS.</p>
@@ -194,8 +192,7 @@
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="row" id="projects">
+    <section class="row projects-section" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -263,8 +260,7 @@
       </div>
     </section>
 
-    <!-- Contact -->
-    <section class="row" id="contact">
+    <section class="row contact-section" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -275,16 +271,14 @@
         </div>
       </div>
     </section>
-
   </main>
 
-  <!-- Footer -->
   <footer class="footer animated bounceInUp">
     <div class="container text-center">
-      <a href="https://github.com/vanillaSlice" class="social"><i class="fab fa-github fa-fw"></i></a>
-      <a href="https://codepen.io/vanillaSlice" class="social"><i class="fab fa-codepen fa-fw"></i></a>
-      <a href="https://www.freecodecamp.com/vanillaslice" class="social"><i class="fab fa-free-code-camp fa-fw"></i></a>
-      <p>Skills section icons by <a href="https://icons8.com/">icons8</a></p>
+      <a href="https://github.com/vanillaSlice" class="link social" aria-label="GitHub"><i class="fab fa-github fa-fw"></i></a>
+      <a href="https://codepen.io/vanillaSlice" class="link social" aria-label="CodePen"><i class="fab fa-codepen fa-fw"></i></a>
+      <a href="https://www.freecodecamp.com/vanillaslice" class="link social" aria-label="FreeCodeCamp"><i class="fab fa-free-code-camp fa-fw"></i></a>
+      <p>Skills section icons by <a href="https://icons8.com/" class="link">icons8</a></p>
     </div>
   </footer>
 
