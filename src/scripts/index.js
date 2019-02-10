@@ -35,7 +35,8 @@ function handleScrollableElementClick(e) {
 
   const scrollTop = $(e.target.hash).offset().top - 50;
   const duration = 800;
-  $(htmlElement, bodyElement).animate({ scrollTop }, duration);
+  $(htmlElement).animate({ scrollTop }, duration);
+  $(bodyElement).animate({ scrollTop }, duration);
 
   if (navbarToggleElement.is(':visible') && !navbarToggleElement.hasClass('collapsed')) {
     navbarToggleElement.trigger('click');
