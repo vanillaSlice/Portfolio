@@ -6,7 +6,7 @@
 
 *Basic Front End Development Project for FreeCodeCamp.*
 
-A deployed version can be viewed [here](https://vanillaSlice.github.io/Portfolio).
+A deployed version can be viewed [here](https://portfolio.mikelowe.xyz/).
 
 ## Screenshot
 
